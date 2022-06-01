@@ -1,6 +1,6 @@
 <?php
     require_once './startup/boot.php';
-    require_once './controllers/LoginController.php';
+    require_once './controllers/AuthController.php';
     require_once './controllers/SiteController.php';
 
     if (!isset($_GET['c']) && !isset($_GET['a']))
@@ -19,26 +19,28 @@
             case 'site':
                 $sitecontroller = new  SiteController();
 
-                if ($action == 'index') {
-                    $sitecontroller -> index();
-                }
+                    switch ($action) {
+                        case 'index':
+                            $sitecontroller->index();
+                            break;
+                    }
                 break;
 
             case 'login':
-                $logincontroller = new  LoginController();
+                $authcontroller = new  AuthController();
 
                 switch ($action)
                 {
                     case 'index':
-                        $logincontroller -> index();
+                        $authcontroller -> index();
                         break;
 
                     case 'login':
-                        $logincontroller -> login();
+                        $authcontroller -> login();
                         break;
 
                     case 'logout':
-                        $logincontroller ->logout();
+                        $authcontroller ->logout();
                         break;
                 }
             break;

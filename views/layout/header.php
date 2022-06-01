@@ -1,63 +1,59 @@
-<html lang="pt">
+<html lang="pt" class="no-js">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.88.1">
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sticky-footer-navbar/">
-
-    <!-- Bootstrap core CSS -->
-    <link href="./public/CSS/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            user-select: none;
-        }
-
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
-    <!-- Custom styles for this template -->
-
-    <link href="./public/CSS/sticky-footer-navbar.css" rel="stylesheet">
+    <meta charset="utf-8"/>
     <title><?= APP_NOME ?></title>
-<header>
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="router.php?c=site&a=index"><?= APP_NOME ?></a>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                    <li class="nav-item"> <!-- Logout -->
-                        <?php
-                            if (isset($username))
-                            {
-                                echo '<a class="nav-link active" href="router.php?c=login&a=logout">Logout(' .$username. ')</a>';
-                            }
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta content="FlameOnePage freebie theme for web startups by FairTech SEO." name="description"/>
+    <meta content="FairTech" name="author"/>
+    <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="./public/FrontOffice/vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+    <link href="./public/FrontOffice/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="./public/FrontOffice/css/animate.css" rel="stylesheet">
+    <link href="./public/FrontOffice/vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+    <link href="./public/FrontOffice/css/layout.min.css" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+</head>
 
-                            else
-                            {
-                                echo '<a class="nav-link active" href="router.php?c=login&a=index">Login</a>';
-                            }
-                        ?>
-                    </li>
-                    <?php if (isset($username)) {?>
-                        <li class="nav-item"><!-- Login -->
-                               <a class="nav-link active" href="">WOW</a>
-                        </li>
-                    <?php } ?>
-                </ul>
+
+<body id="body" data-spy="scroll" data-target=".header">
+
+<header class="header navbar-fixed-top">
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="menu-container js_nav-item">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="toggle-icon"></span>
+                </button>
+
+                <div class="logo">
+                    <a class="logo-wrap" href="#body">
+                        <img class="logo-img logo-img-main" src="./public/FrontOffice/img/logo.png" alt="FlameOnePage Logo">
+                        <img class="logo-img logo-img-active" src="./public/FrontOffice/img/logo-dark.png" alt="FlameOnePage Dark Logo">
+                    </a>
+                </div>
+            </div>
+
+            <div class="collapse navbar-collapse nav-collapse">
+
+                <!--div class="language-switcher">
+                  <ul class="nav-lang">
+                    <li><a class="active" href="#">EN</a></li>
+                    <li><a href="#">DE</a></li>
+                    <li><a href="#">FR</a></li>
+                  </ul>
+                </div--->
+
+                <div class="menu-container">
+                    <ul class="nav navbar-nav navbar-nav-right">
+                        <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Login</a></li>
+                        <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact Me</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
 </header>
-</head>
-<body class="d-flex flex-column h-100">

@@ -6,11 +6,12 @@
         {
             extract($params);
 
-            $auth = new Login();
+            $auth = new Auth();
 
             if ($auth -> isLoggedIn())
             {
                 $username = $auth -> getUsername();
+                $userRole = $auth -> getUserRole();
             }
 
             require_once './views/layout/header.php';

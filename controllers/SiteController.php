@@ -6,5 +6,4 @@
             $this -> makeView('site', 'index');
         }
     }
-
 ?>
