@@ -19,7 +19,7 @@
 
                 if ($valid)
                 {
-                    $this -> redirectRoute('site', 'index');
+                    $this -> redirectRoute( 'site', 'index');
                 }
 
                 else

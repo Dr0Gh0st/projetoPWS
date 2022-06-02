@@ -2,6 +2,7 @@
     require_once './startup/boot.php';
     require_once './controllers/AuthController.php';
     require_once './controllers/SiteController.php';
+    require_once './controllers/BOController.php';
 
     if (!isset($_GET['c']) && !isset($_GET['a']))
     {
@@ -44,5 +45,23 @@
                         break;
                 }
             break;
+
+            case 'backo':
+                $bocontroller = new BOController();
+
+                switch ($action)
+                {
+                    case 'index':
+                        $bocontroller -> index();
+                        break;
+
+                    case 'funcionario':
+                        $bocontroller -> funcionario();
+                        break;
+
+                    case 'admin':
+                        $bocontroller -> admin();
+                        break;
+                }
         }
     }

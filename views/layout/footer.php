@@ -1,65 +1,63 @@
-<!--========== FOOTER ==========-->
-<footer class="footer">
-    <!-- Links -->
-    <div class="section-seperator">
-        <div class="content-md container">
-            <div class="row">
-                <div class="col-sm-2 sm-margin-b-30">
-                    <!-- List -->
-                    <ul class="list-unstyled footer-list">
-                        <li class="footer-list-item"><a href="#body">Home</a></li>
-                        <li class="footer-list-item"><a href="#about">Team</a></li>
-                        <li class="footer-list-item"><a href="#work">Credentials</a></li>
-                        <li class="footer-list-item"><a href="#contact">Contact</a></li>
-                    </ul>
-                    <!-- End List -->
-                </div>
-            </div>
-            <!--// end row -->
-        </div>
+<!-- Main Footer -->
+<footer class="main-footer">
+    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
+    All rights reserved.
+    <div class="float-right d-none d-sm-inline-block">
+        <b>Version</b> 3.1.0
     </div>
-    <!-- End Links -->
-
-    <!-- Copyright -->
-    <div class="content container">
-        <div class="row">
-            <div class="col-xs-6">
-                <img class="footer-logo" src="./public/FrontOffice/img/logo-dark.png" alt="flameonepage Logo">
-            </div>
-            <div class="col-xs-6 text-right">
-                <p class="margin-b-0"><a class="fweight-700" href="#">Copyright &copy; 2022 <?= APP_NOME ?> ☺</p>
-            </div>
-        </div>
-        <!--// end row -->
-    </div>
-    <!-- End Copyright -->
 </footer>
-<!--========== END FOOTER ==========-->
+</div>
+<!-- ./wrapper -->
 
-<!-- Back To Top -->
-<a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+<!-- REQUIRED SCRIPTS -->
+<!-- jQuery -->
+<script src="./public/BackOffice/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="./public/BackOffice/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="./public/BackOffice/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="./public/BackOffice/dist/js/adminlte.js"></script>
 
-<!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
-<!-- CORE PLUGINS -->
-<script src="./public/FrontOffice/vendor/jquery.min.js" type="text/javascript"></script>
-<script src="./public/FrontOffice/vendor/jquery-migrate.min.js" type="text/javascript"></script>
-<script src="./public/FrontOffice/vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<!-- PAGE PLUGINS -->
+<!-- jQuery Mapael -->
+<script src="./public/BackOffice/plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
+<script src="./public/BackOffice/plugins/raphael/raphael.min.js"></script>
+<script src="./public/BackOffice/plugins/jquery-mapael/jquery.mapael.min.js"></script>
+<script src="./public/BackOffice/plugins/jquery-mapael/maps/usa_states.min.js"></script>
+<!-- ChartJS -->
+<script src="./public/BackOffice/plugins/chart.js/Chart.min.js"></script>
 
-<!-- PAGE LEVEL PLUGINS -->
-<script src="./public/FrontOffice/vendor/jquery.easing.js" type="text/javascript"></script>
-<script src="./public/FrontOffice/vendor/jquery.back-to-top.js" type="text/javascript"></script>
-<script src="./public/FrontOffice/vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
-<script src="./public/FrontOffice/vendor/jquery.wow.min.js" type="text/javascript"></script>
-<script src="./public/FrontOffice/vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
-<script src="./public/FrontOffice/vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
-<script src="./public/FrontOffice/vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-
-<!-- PAGE LEVEL SCRIPTS -->
-<script src="./public/FrontOffice/js/layout.min.js" type="text/javascript"></script>
-<script src="./public/FrontOffice/js/components/wow.min.js" type="text/javascript"></script>
-<script src="./public/FrontOffice/js/components/swiper.min.js" type="text/javascript"></script>
-<script src="./public/FrontOffice/js/components/masonry.min.js" type="text/javascript"></script>
-
+<!-- AdminLTE for demo purposes -->
+<script src="./public/BackOffice/dist/js/demo.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="./public/BackOffice/dist/js/pages/dashboard2.js"></script>
 </body>
-<!-- END BODY -->
+</html>
+
+
+<!-- REQUIRED SCRIPTS -->
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
+
+<!-- PAGE PLUGINS -->
+<!-- jQuery Mapael -->
+<script src="plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
+<script src="plugins/raphael/raphael.min.js"></script>
+<script src="plugins/jquery-mapael/jquery.mapael.min.js"></script>
+<script src="plugins/jquery-mapael/maps/usa_states.min.js"></script>
+<!-- ChartJS -->
+<script src="plugins/chart.js/Chart.min.js"></script>
+
+<!-- AdminLTE for demo purposes -->
+<script src="dist/js/demo.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="dist/js/pages/dashboard2.js"></script>
+</body>
 </html>
