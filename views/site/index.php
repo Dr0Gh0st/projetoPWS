@@ -4,7 +4,8 @@
         <div class="content-header">
             <div class="container-fluid">
                 <div class="row mb-1">
-                    <div class="col-sm-3">
+                    <div class="col-sm-5">
+                        <h1>HOMEPAGE --- FRONTOFFICE</h1>
                     </div><!-- /.col -->
                 </div><!-- /.row -->
             </div><!-- /.container-fluid -->
@@ -14,7 +15,7 @@
         <!-- Main content -->
         <section class="content">
             <div class="container-fluid">
-                <img src="./public/IMG/homepage.jpg" height="650px" width="1100px">
+                <img src="./public/IMG/homepage.jpg" height="550px" width="1100px">
             </div>
         </section>
         <!-- /.content -->

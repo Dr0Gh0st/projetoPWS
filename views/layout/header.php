@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="./public/BackOffice/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="./public/BackOffice/dist/css/adminlte.min.css">
+    <!-- DataTables -->
+    <link rel="stylesheet" href="./public/BackOffice/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="./public/BackOffice/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" href="./public/BackOffice/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
 </head>
 <body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
 <div class="wrapper">
@@ -32,7 +36,7 @@
                 <a href="router.php?c=site&a=index" class="nav-link">Home</a>
             </li>
             <li class="nav-item d-none d-sm-inline-block">
-                <a href="#" class="nav-link">Contact</a>
+                <a href="router.php?c=site&a=contactus" class="nav-link">Contact</a>
             </li>
             <li class="nav-item d-none d-sm-inline-block">
                 <!-- Logout -->
@@ -78,7 +82,7 @@
     <!-- /.navbar -->
 
     <!-- Main Sidebar Container -->
-    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <aside class="main-sidebar sidebar-dark-primary elevation-4 ">
         <!-- Brand Logo -->
         <a href="router.php?c=site&a=index" class="brand-link">
             <img src="./public/BackOffice/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
@@ -93,6 +97,7 @@
                     <?php
                     if (isset($username))
                     {
+
                         echo $username; echo ' (' . strtoupper($userRole) . ')';
                     }
 
@@ -123,33 +128,27 @@
                     <!-- Add icons to the links using the .nav-icon class
                          with font-awesome or any other icon font library -->
                     <li class="nav-item menu-open">
-                        <a class="nav-link">
-                            <i class="nav-icon fas fa-tachometer-alt"></i>
-                            <p>
-                                HomePage
-                                <i class="right fas fa-angle-left"></i>
-                            </p>
-                        </a>
-                        <ul class="nav nav-treeview">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Cliente</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Funcionario</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Administrador</p>
-                                </a>
-                            </li>
-                        </ul>
+                        <?php if(isset($userRole)) {
+                                if ($userRole == 'cliente') { ?>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="./router.php?c=cliente&a=index" class="nav-link">
+                                                <i class="far fa-circle nav-icon"></i>
+                                                <p><?php echo strtoupper($userRole); ?></p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                <?php } else { ?>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="./router.php?c=bo&a=index" class="nav-link">
+                                                <i class="far fa-circle nav-icon"></i>
+                                                <p><?php echo strtoupper($userRole); ?></p>
+                                            </a>
+                                       </li>
+                                    </ul>
+                                <?php } ?>
+                        <?php } ?>
                     </li>
                 </ul>
             </nav>

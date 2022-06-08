@@ -92,7 +92,7 @@ Old sample entry (with tree menu)
     </span>
   </a>
   <ul class="treeview-menu">
-    <li class="active"><a href="../../../views/backo/index.php">
+    <li class="active"><a href="../../../views/bo/index.php">
       <i class="fa fa-circle-o"></i> Dashboard v1</a>
     </li>
   </ul>
@@ -112,7 +112,7 @@ New sample entry (with tree menu)
   </a>
   <ul class="nav nav-treeview">
     <li class="nav-item">
-      <a href="../../../views/backo/index.php" class="nav-link active">
+      <a href="../../../views/bo/index.php" class="nav-link active">
         <i class="far fa-circle nav-icon"></i>
         <p>Dashboard v1</p>
       </a>

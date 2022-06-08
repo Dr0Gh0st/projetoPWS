@@ -3,6 +3,7 @@
     require_once './controllers/AuthController.php';
     require_once './controllers/SiteController.php';
     require_once './controllers/BOController.php';
+    require_once './controllers/ClienteController.php';
 
     if (!isset($_GET['c']) && !isset($_GET['a']))
     {
@@ -23,6 +24,10 @@
                     switch ($action) {
                         case 'index':
                             $sitecontroller->index();
+                            break;
+
+                        case 'contactus':
+                            $sitecontroller -> contactus();
                             break;
                     }
                 break;
@@ -46,7 +51,7 @@
                 }
             break;
 
-            case 'backo':
+            case 'bo':
                 $bocontroller = new BOController();
 
                 switch ($action)
@@ -54,13 +59,26 @@
                     case 'index':
                         $bocontroller -> index();
                         break;
+                }
+            break;
 
-                    case 'funcionario':
-                        $bocontroller -> funcionario();
-                        break;
+            case 'cliente':
+                $clientecontroller = new ClienteController();
 
-                    case 'admin':
-                        $bocontroller -> admin();
+                switch ($action)
+                {
+                    case 'index':
+                        $clientecontroller -> index();
+                }
+            break;
+
+            case 'fatura':
+                $faturacontroller = new  FaturaController();
+
+                switch ($action)
+                {
+                    case 'index':
+                        $faturacontroller -> index();
                         break;
                 }
         }
