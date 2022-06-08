@@ -3,7 +3,7 @@
 
     <!-- Preloader -->
     <div class="preloader flex-column justify-content-center align-items-center">
-        <img class="animation__shake" src="../../public/BackOffice/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+        <img class="animation__shake" src="../../public/template/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
     </div>
 
     <!-- Navbar -->
@@ -55,7 +55,7 @@
                     <a href="#" class="dropdown-item">
                         <!-- Message Start -->
                         <div class="media">
-                            <img src="../../public/BackOffice/dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+                            <img src="../../public/template/dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
                             <div class="media-body">
                                 <h3 class="dropdown-item-title">
                                     Brad Diesel
@@ -71,7 +71,7 @@
                     <a href="#" class="dropdown-item">
                         <!-- Message Start -->
                         <div class="media">
-                            <img src="../../public/BackOffice/dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                            <img src="../../public/template/dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
                             <div class="media-body">
                                 <h3 class="dropdown-item-title">
                                     John Pierce
@@ -87,7 +87,7 @@
                     <a href="#" class="dropdown-item">
                         <!-- Message Start -->
                         <div class="media">
-                            <img src="../../public/BackOffice/dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                            <img src="../../public/template/dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
                             <div class="media-body">
                                 <h3 class="dropdown-item-title">
                                     Nora Silvester
@@ -148,7 +148,7 @@
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
         <a href="../funcionario/index.php" class="brand-link">
-            <img src="../../public/BackOffice/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+            <img src="../../public/template/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
             <span class="brand-text font-weight-light">AdminLTE 3</span>
         </a>
 
@@ -157,7 +157,7 @@
             <!-- Sidebar user panel (optional) -->
             <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                 <div class="image">
-                    <img src="../../public/BackOffice/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                    <img src="../../public/template/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
                 </div>
                 <div class="info">
                     <a href="#" class="d-block">Alexander Pierce</a>
@@ -211,7 +211,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="../../public/BackOffice/pages/widgets.html" class="nav-link">
+                        <a href="../../public/template/pages/widgets.html" class="nav-link">
                             <i class="nav-icon fas fa-th"></i>
                             <p>
                                 Widgets
@@ -230,49 +230,49 @@
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/layout/top-nav.html" class="nav-link">
+                                <a href="../../public/template/pages/layout/top-nav.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Top Navigation</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/layout/top-nav-sidebar.html" class="nav-link">
+                                <a href="../../public/template/pages/layout/top-nav-sidebar.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Top Navigation + Sidebar</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/layout/boxed.html" class="nav-link">
+                                <a href="../../public/template/pages/layout/boxed.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Boxed</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/layout/fixed-sidebar.html" class="nav-link">
+                                <a href="../../public/template/pages/layout/fixed-sidebar.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Fixed Sidebar</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/layout/fixed-sidebar-custom.html" class="nav-link">
+                                <a href="../../public/template/pages/layout/fixed-sidebar-custom.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Fixed Sidebar <small>+ Custom Area</small></p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/layout/fixed-topnav.html" class="nav-link">
+                                <a href="../../public/template/pages/layout/fixed-topnav.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Fixed Navbar</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/layout/fixed-footer.html" class="nav-link">
+                                <a href="../../public/template/pages/layout/fixed-footer.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Fixed Footer</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/layout/collapsed-sidebar.html" class="nav-link">
+                                <a href="../../public/template/pages/layout/collapsed-sidebar.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Collapsed Sidebar</p>
                                 </a>
@@ -289,25 +289,25 @@
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/charts/chartjs.html" class="nav-link">
+                                <a href="../../public/template/pages/charts/chartjs.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>ChartJS</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/charts/flot.html" class="nav-link">
+                                <a href="../../public/template/pages/charts/flot.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Flot</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/charts/inline.html" class="nav-link">
+                                <a href="../../public/template/pages/charts/inline.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Inline</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/charts/uplot.html" class="nav-link">
+                                <a href="../../public/template/pages/charts/uplot.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>uPlot</p>
                                 </a>
@@ -324,49 +324,49 @@
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/UI/general.html" class="nav-link">
+                                <a href="../../public/template/pages/UI/general.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>General</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/UI/icons.html" class="nav-link">
+                                <a href="../../public/template/pages/UI/icons.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Icons</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/UI/buttons.html" class="nav-link">
+                                <a href="../../public/template/pages/UI/buttons.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Buttons</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/UI/sliders.html" class="nav-link">
+                                <a href="../../public/template/pages/UI/sliders.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Sliders</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/UI/modals.html" class="nav-link">
+                                <a href="../../public/template/pages/UI/modals.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Modals & Alerts</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/UI/navbar.html" class="nav-link">
+                                <a href="../../public/template/pages/UI/navbar.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Navbar & Tabs</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/UI/timeline.html" class="nav-link">
+                                <a href="../../public/template/pages/UI/timeline.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Timeline</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/UI/ribbons.html" class="nav-link">
+                                <a href="../../public/template/pages/UI/ribbons.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Ribbons</p>
                                 </a>
@@ -383,25 +383,25 @@
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/forms/general.html" class="nav-link">
+                                <a href="../../public/template/pages/forms/general.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>General Elements</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/forms/advanced.html" class="nav-link">
+                                <a href="../../public/template/pages/forms/advanced.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Advanced Elements</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/forms/editors.html" class="nav-link">
+                                <a href="../../public/template/pages/forms/editors.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Editors</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/forms/validation.html" class="nav-link">
+                                <a href="../../public/template/pages/forms/validation.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Validation</p>
                                 </a>
@@ -418,19 +418,19 @@
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/tables/simple.html" class="nav-link">
+                                <a href="../../public/template/pages/tables/simple.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Simple Tables</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/tables/data.html" class="nav-link">
+                                <a href="../../public/template/pages/tables/data.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>DataTables</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/tables/jsgrid.html" class="nav-link">
+                                <a href="../../public/template/pages/tables/jsgrid.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>jsGrid</p>
                                 </a>
@@ -439,7 +439,7 @@
                     </li>
                     <li class="nav-header">EXAMPLES</li>
                     <li class="nav-item">
-                        <a href="../../public/BackOffice/pages/calendar.html" class="nav-link">
+                        <a href="../../public/template/pages/calendar.html" class="nav-link">
                             <i class="nav-icon far fa-calendar-alt"></i>
                             <p>
                                 Calendar
@@ -448,7 +448,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="../../public/BackOffice/pages/gallery.html" class="nav-link">
+                        <a href="../../public/template/pages/gallery.html" class="nav-link">
                             <i class="nav-icon far fa-image"></i>
                             <p>
                                 Gallery
@@ -456,7 +456,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="../../public/BackOffice/pages/kanban.html" class="nav-link">
+                        <a href="../../public/template/pages/kanban.html" class="nav-link">
                             <i class="nav-icon fas fa-columns"></i>
                             <p>
                                 Kanban Board
@@ -473,19 +473,19 @@
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/mailbox/mailbox.html" class="nav-link">
+                                <a href="../../public/template/pages/mailbox/mailbox.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Inbox</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/mailbox/compose.html" class="nav-link">
+                                <a href="../../public/template/pages/mailbox/compose.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Compose</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/mailbox/read-mail.html" class="nav-link">
+                                <a href="../../public/template/pages/mailbox/read-mail.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Read</p>
                                 </a>
@@ -502,61 +502,61 @@
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/examples/invoice.html" class="nav-link">
+                                <a href="../../public/template/pages/examples/invoice.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Invoice</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/examples/profile.html" class="nav-link">
+                                <a href="../../public/template/pages/examples/profile.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Profile</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/examples/e-commerce.html" class="nav-link">
+                                <a href="../../public/template/pages/examples/e-commerce.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>E-commerce</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/examples/projects.html" class="nav-link">
+                                <a href="../../public/template/pages/examples/projects.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Projects</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/examples/project-add.html" class="nav-link">
+                                <a href="../../public/template/pages/examples/project-add.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Project Add</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/examples/project-edit.html" class="nav-link">
+                                <a href="../../public/template/pages/examples/project-edit.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Project Edit</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/examples/project-detail.html" class="nav-link">
+                                <a href="../../public/template/pages/examples/project-detail.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Project Detail</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/examples/contacts.html" class="nav-link">
+                                <a href="../../public/template/pages/examples/contacts.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Contacts</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/examples/faq.html" class="nav-link">
+                                <a href="../../public/template/pages/examples/faq.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>FAQ</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/examples/contact-us.html" class="nav-link">
+                                <a href="../../public/template/pages/examples/contact-us.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Contact us</p>
                                 </a>
@@ -582,25 +582,25 @@
                                 </a>
                                 <ul class="nav nav-treeview">
                                     <li class="nav-item">
-                                        <a href="../../public/BackOffice/pages/examples/login.html" class="nav-link">
+                                        <a href="../../public/template/pages/examples/login.html" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
                                             <p>Login v1</p>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="../../public/BackOffice/pages/examples/register.html" class="nav-link">
+                                        <a href="../../public/template/pages/examples/register.html" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
                                             <p>Register v1</p>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="../../public/BackOffice/pages/examples/forgot-password.html" class="nav-link">
+                                        <a href="../../public/template/pages/examples/forgot-password.html" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
                                             <p>Forgot Password v1</p>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="../../public/BackOffice/pages/examples/recover-password.html" class="nav-link">
+                                        <a href="../../public/template/pages/examples/recover-password.html" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
                                             <p>Recover Password v1</p>
                                         </a>
@@ -617,25 +617,25 @@
                                 </a>
                                 <ul class="nav nav-treeview">
                                     <li class="nav-item">
-                                        <a href="../../public/BackOffice/pages/examples/login-v2.html" class="nav-link">
+                                        <a href="../../public/template/pages/examples/login-v2.html" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
                                             <p>Login v2</p>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="../../public/BackOffice/pages/examples/register-v2.html" class="nav-link">
+                                        <a href="../../public/template/pages/examples/register-v2.html" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
                                             <p>Register v2</p>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="../../public/BackOffice/pages/examples/forgot-password-v2.html" class="nav-link">
+                                        <a href="../../public/template/pages/examples/forgot-password-v2.html" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
                                             <p>Forgot Password v2</p>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="../../public/BackOffice/pages/examples/recover-password-v2.html" class="nav-link">
+                                        <a href="../../public/template/pages/examples/recover-password-v2.html" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
                                             <p>Recover Password v2</p>
                                         </a>
@@ -643,49 +643,49 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/examples/lockscreen.html" class="nav-link">
+                                <a href="../../public/template/pages/examples/lockscreen.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Lockscreen</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/examples/legacy-user-menu.html" class="nav-link">
+                                <a href="../../public/template/pages/examples/legacy-user-menu.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Legacy User Menu</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/examples/language-menu.html" class="nav-link">
+                                <a href="../../public/template/pages/examples/language-menu.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Language Menu</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/examples/404.html" class="nav-link">
+                                <a href="../../public/template/pages/examples/404.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Error 404</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/examples/500.html" class="nav-link">
+                                <a href="../../public/template/pages/examples/500.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Error 500</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/examples/pace.html" class="nav-link">
+                                <a href="../../public/template/pages/examples/pace.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Pace</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/examples/blank.html" class="nav-link">
+                                <a href="../../public/template/pages/examples/blank.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Blank Page</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/starter.html" class="nav-link">
+                                <a href="../../public/template/starter.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Starter Page</p>
                                 </a>
@@ -702,13 +702,13 @@
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/search/simple.html" class="nav-link">
+                                <a href="../../public/template/pages/search/simple.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Simple Search</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="../../public/BackOffice/pages/search/enhanced.html" class="nav-link">
+                                <a href="../../public/template/pages/search/enhanced.html" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Enhanced</p>
                                 </a>
@@ -717,7 +717,7 @@
                     </li>
                     <li class="nav-header">MISCELLANEOUS</li>
                     <li class="nav-item">
-                        <a href="../../public/BackOffice/iframe.html" class="nav-link">
+                        <a href="../../public/template/iframe.html" class="nav-link">
                             <i class="nav-icon fas fa-ellipsis-h"></i>
                             <p>Tabbed IFrame Plugin</p>
                         </a>
@@ -972,7 +972,7 @@
                                             <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
                                         </div>
                                         <!-- /.direct-chat-infos -->
-                                        <img class="direct-chat-img" src="../../public/BackOffice/dist/img/user1-128x128.jpg" alt="message user image">
+                                        <img class="direct-chat-img" src="../../public/template/dist/img/user1-128x128.jpg" alt="message user image">
                                         <!-- /.direct-chat-img -->
                                         <div class="direct-chat-text">
                                             Is this template really for free? That's unbelievable!
@@ -988,7 +988,7 @@
                                             <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
                                         </div>
                                         <!-- /.direct-chat-infos -->
-                                        <img class="direct-chat-img" src="../../public/BackOffice/dist/img/user3-128x128.jpg" alt="message user image">
+                                        <img class="direct-chat-img" src="../../public/template/dist/img/user3-128x128.jpg" alt="message user image">
                                         <!-- /.direct-chat-img -->
                                         <div class="direct-chat-text">
                                             You better believe it!
@@ -1004,7 +1004,7 @@
                                             <span class="direct-chat-timestamp float-right">23 Jan 5:37 pm</span>
                                         </div>
                                         <!-- /.direct-chat-infos -->
-                                        <img class="direct-chat-img" src="../../public/BackOffice/dist/img/user1-128x128.jpg" alt="message user image">
+                                        <img class="direct-chat-img" src="../../public/template/dist/img/user1-128x128.jpg" alt="message user image">
                                         <!-- /.direct-chat-img -->
                                         <div class="direct-chat-text">
                                             Working with AdminLTE on a great new app! Wanna join?
@@ -1020,7 +1020,7 @@
                                             <span class="direct-chat-timestamp float-left">23 Jan 6:10 pm</span>
                                         </div>
                                         <!-- /.direct-chat-infos -->
-                                        <img class="direct-chat-img" src="../../public/BackOffice/dist/img/user3-128x128.jpg" alt="message user image">
+                                        <img class="direct-chat-img" src="../../public/template/dist/img/user3-128x128.jpg" alt="message user image">
                                         <!-- /.direct-chat-img -->
                                         <div class="direct-chat-text">
                                             I would love to.
@@ -1037,7 +1037,7 @@
                                     <ul class="contacts-list">
                                         <li>
                                             <a href="#">
-                                                <img class="contacts-list-img" src="../../public/BackOffice/dist/img/user1-128x128.jpg" alt="User Avatar">
+                                                <img class="contacts-list-img" src="../../public/template/dist/img/user1-128x128.jpg" alt="User Avatar">
 
                                                 <div class="contacts-list-info">
                           <span class="contacts-list-name">
@@ -1052,7 +1052,7 @@
                                         <!-- End Contact Item -->
                                         <li>
                                             <a href="#">
-                                                <img class="contacts-list-img" src="../../public/BackOffice/dist/img/user7-128x128.jpg" alt="User Avatar">
+                                                <img class="contacts-list-img" src="../../public/template/dist/img/user7-128x128.jpg" alt="User Avatar">
 
                                                 <div class="contacts-list-info">
                           <span class="contacts-list-name">
@@ -1067,7 +1067,7 @@
                                         <!-- End Contact Item -->
                                         <li>
                                             <a href="#">
-                                                <img class="contacts-list-img" src="../../public/BackOffice/dist/img/user3-128x128.jpg" alt="User Avatar">
+                                                <img class="contacts-list-img" src="../../public/template/dist/img/user3-128x128.jpg" alt="User Avatar">
 
                                                 <div class="contacts-list-info">
                           <span class="contacts-list-name">
@@ -1082,7 +1082,7 @@
                                         <!-- End Contact Item -->
                                         <li>
                                             <a href="#">
-                                                <img class="contacts-list-img" src="../../public/BackOffice/dist/img/user5-128x128.jpg" alt="User Avatar">
+                                                <img class="contacts-list-img" src="../../public/template/dist/img/user5-128x128.jpg" alt="User Avatar">
 
                                                 <div class="contacts-list-info">
                           <span class="contacts-list-name">
@@ -1097,7 +1097,7 @@
                                         <!-- End Contact Item -->
                                         <li>
                                             <a href="#">
-                                                <img class="contacts-list-img" src="../../public/BackOffice/dist/img/user6-128x128.jpg" alt="User Avatar">
+                                                <img class="contacts-list-img" src="../../public/template/dist/img/user6-128x128.jpg" alt="User Avatar">
 
                                                 <div class="contacts-list-info">
                           <span class="contacts-list-name">
@@ -1112,7 +1112,7 @@
                                         <!-- End Contact Item -->
                                         <li>
                                             <a href="#">
-                                                <img class="contacts-list-img" src="../../public/BackOffice/dist/img/user8-128x128.jpg" alt="User Avatar">
+                                                <img class="contacts-list-img" src="../../public/template/dist/img/user8-128x128.jpg" alt="User Avatar">
 
                                                 <div class="contacts-list-info">
                           <span class="contacts-list-name">
