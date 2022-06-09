@@ -18,34 +18,40 @@
             <div class="card">
                 <div class="card-header">
                     <h3 class="card-title"><strong>Faturas</strong></h3>
+                    <a href="./router.php?c=fatura&a=create"
+                       class="btn btn-info" role="button">Nova Fatura</a>
                 </div>
                 <!-- /.card-header -->
+                <!-- ADMIN // FUNCIONARIO only -->
                 <div class="card-body">
                     <table id="example1" class="table table-bordered table-striped">
                         <thead>
-                        <tr>
-                            <th>Fatura Nº</th>
-                            <th>Data de Emissão</th>
-                            <th>Valor Total</th>
-                            <th>Iva Total</th>
-                            <th>Estado</th>
-                        </tr>
+                            <tr>
+                                <th>Fatura Nº</th>
+                                <th>Data de Emissão</th>
+                                <th>Valor Total</th>
+                                <th>Iva Total</th>
+                                <th>Estado</th>
+                                <th>Actions</th>
+                            </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <td>Misc</td>
-                            <td>PSP browser</td>
-                            <td>PSP</td>
-                            <td>-</td>
-                            <td>C</td>
-                        </tr>
-                        <tr>
-                            <td>Other browsers</td>
-                            <td>All others</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>U</td>
-                        </tr>
+                        <?php
+                        foreach ($faturas as $fatura) { ?>
+                            <tr>
+                                <td><?=$fatura -> id?></td>
+                                <td><?=$fatura -> data?></td>
+                                <td><?=$fatura-> valortotal ?></td>
+                                <td><?=$fatura-> ivatotal ?></td>
+                                <td><?=$fatura-> estado ?></td>
+                                <td>
+                                    <a href="./router.php?c=fatura&a=show&id=<?=$fatura->id ?>"
+                                       class="btn btn-info" role="button">Show</a>
+                                    <a href="./router.php?c=fatura&a=edit&id=<?=$fatura->id ?>"
+                                       class="btn btn-info" role="button">Edit</a>
+                                </td>
+                            </tr>
+                        <?php } ?>
                         </tbody>
                     </table>
                 </div>

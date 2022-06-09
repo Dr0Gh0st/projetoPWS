@@ -4,6 +4,8 @@
     require_once './controllers/SiteController.php';
     require_once './controllers/BOController.php';
     require_once './controllers/ClienteController.php';
+    require_once './controllers/FaturaController.php';
+    require_once './controllers/LinhaFaturaController.php';
 
     if (!isset($_GET['c']) && !isset($_GET['a']))
     {
@@ -79,6 +81,10 @@
                 {
                     case 'index':
                         $faturacontroller -> index();
+                        break;
+
+                    case 'show':
+                        $faturacontroller -> show($_GET['id']);
                         break;
                 }
         }

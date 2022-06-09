@@ -13,4 +13,8 @@ class User extends ActiveRecord\Model
         array('localidade'),
         array('role')
     );
+
+    static $has_many = array(
+        array('faturas')
+    );
 }

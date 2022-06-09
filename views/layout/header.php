@@ -22,7 +22,7 @@
 
     <!-- Preloader -->
     <div class="preloader flex-column justify-content-center align-items-center">
-        <img class="animation__wobble" src="./public/BackOffice/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+        <img class="animation__wobble" src="#" alt="<?= APP_NOME ?>" height="60" width="60">
     </div>
 
     <!-- Navbar -->
@@ -127,28 +127,29 @@
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                     <!-- Add icons to the links using the .nav-icon class
                          with font-awesome or any other icon font library -->
-                    <li class="nav-item menu-open">
+                    <li class="nav-item">
                         <?php if(isset($userRole)) {
                                 if ($userRole == 'cliente') { ?>
-                                    <ul class="nav nav-treeview">
-                                        <li class="nav-item">
-                                            <a href="./router.php?c=cliente&a=index" class="nav-link">
-                                                <i class="far fa-circle nav-icon"></i>
-                                                <p><?php echo strtoupper($userRole); ?></p>
-                                            </a>
-                                        </li>
-                                    </ul>
+                                    <a href="./router.php?c=cliente&a=index" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                            <p><?php echo strtoupper($userRole); ?></p>
+                                    </a>
                                 <?php } else { ?>
-                                    <ul class="nav nav-treeview">
-                                        <li class="nav-item">
-                                            <a href="./router.php?c=bo&a=index" class="nav-link">
-                                                <i class="far fa-circle nav-icon"></i>
-                                                <p><?php echo strtoupper($userRole); ?></p>
-                                            </a>
-                                       </li>
-                                    </ul>
+                                    <a href="./router.php?c=bo&a=index" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                            <p><?php echo strtoupper($userRole); ?></p>
+                                    </a>
                                 <?php } ?>
                         <?php } ?>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="./router.php?c=fatura&a=index" class="nav-link">
+                            <i class="nav-icon fas fa-th"></i>
+                            <p>
+                                Faturas
+                            </p>
+                        </a>
                     </li>
                 </ul>
             </nav>

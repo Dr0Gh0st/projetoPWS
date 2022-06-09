@@ -15,6 +15,7 @@
     <!-- Main content -->
     <section class="content">
         <div class="container-fluid">
+            <a href="./router.php?c=fatura&a=index"><button type="button">Faturas</button></a>
         </div>
     </section>
     <!-- /.content -->
