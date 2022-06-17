@@ -1,6 +1,6 @@
 <?php
 
-class Fatura extends \ActiveRecord\Model
+class Fatura extends ActiveRecord\Model
 {
     static array $validates_presence_of = array(
         array('id'),

@@ -1,6 +1,6 @@
 <?php
 
-class Produto extends \ActiveRecord\Model
+class Produto extends ActiveRecord\Model
 {
     static array $validates_presence_of = array(
         array('id'),
@@ -8,9 +8,5 @@ class Produto extends \ActiveRecord\Model
         array('descricao'),
         array('preco'),
         array('stock')
-    );
-
-    static $belongs_to = array(
-        array('ivas')
     );
 }

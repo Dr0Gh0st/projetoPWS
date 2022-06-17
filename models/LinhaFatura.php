@@ -1,6 +1,6 @@
 <?php
 
-class LinhaFatura extends \ActiveRecord\Model
+class LinhaFatura extends ActiveRecord\Model
 {
     static array $validates_presence_of = array(
         array('id'),

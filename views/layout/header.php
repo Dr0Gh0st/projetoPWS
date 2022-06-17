@@ -22,7 +22,7 @@
 
     <!-- Preloader -->
     <div class="preloader flex-column justify-content-center align-items-center">
-        <img class="animation__wobble" src="#" alt="<?= APP_NOME ?>" height="60" width="60">
+        <img class="animation__wobble" src="./public/IMG/logo.jpg" alt="<?= APP_NOME ?>" height="60" width="60">
     </div>
 
     <!-- Navbar -->
@@ -57,25 +57,18 @@
         <!-- Right navbar links -->
         <ul class="navbar-nav ml-auto">
             <!-- Navbar Search -->
-            <li class="nav-item">
-                <a class="nav-link" data-widget="navbar-search" href="#" role="button">
-                    <i class="fas fa-search"></i>
-                </a>
-                <div class="navbar-search-block">
-                    <form class="form-inline">
-                        <div class="input-group input-group-sm">
-                            <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
-                            <div class="input-group-append">
-                                <button class="btn btn-navbar" type="submit">
-                                    <i class="fas fa-search"></i>
-                                </button>
-                                <button class="btn btn-navbar" type="button" data-widget="navbar-search">
-                                    <i class="fas fa-times"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+            <li class="nav-item d-none d-sm-inline-block">
+                <?php
+                    if (isset($userRole))
+                    {
+                        if ($userRole == 'cliente') {
+                            echo 'Hello';
+                        }
+                        else{
+                            echo '<a class="nav-link active" href="router.php?c=bo&a=create">New User</a>';
+                        }
+                    }
+                ?>
             </li>
         </ul>
     </nav>
@@ -85,7 +78,7 @@
     <aside class="main-sidebar sidebar-dark-primary elevation-4 ">
         <!-- Brand Logo -->
         <a href="router.php?c=site&a=index" class="brand-link">
-            <img src="./public/BackOffice/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+            <img src="./public/IMG/logo.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
             <span class="brand-text font-weight-light"><?= APP_NOME ?></span>
         </a>
 
@@ -132,7 +125,7 @@
                                 if ($userRole == 'cliente') { ?>
                                     <a href="./router.php?c=cliente&a=index" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                            <p><?php echo strtoupper($userRole); ?></p>
+                                            <p><?php echo 'Cliente' ?></p>
                                     </a>
                                 <?php } else { ?>
                                     <a href="./router.php?c=bo&a=index" class="nav-link">
@@ -145,9 +138,18 @@
 
                     <li class="nav-item">
                         <a href="./router.php?c=fatura&a=index" class="nav-link">
-                            <i class="nav-icon fas fa-th"></i>
+                            <i class="nav-icon fas fa-table"></i>
                             <p>
                                 Faturas
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="./router.php?c=empresa&a=index" class="nav-link">
+                            <i class="nav-icon fas fa-copy"></i>
+                            <p>
+                                Empresa
                             </p>
                         </a>
                     </li>

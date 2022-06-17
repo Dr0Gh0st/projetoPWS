@@ -1,7 +1,5 @@
 <?php
 
-    use Carbon\Carbon;
-
 class FaturaController extends BaseAuthController
 {
     public function index()

@@ -1,6 +1,6 @@
 <?php
 
-class Empresa extends \ActiveRecord\Model
+class Empresa extends ActiveRecord\Model
 {
     static array $validates_presence_of = array(
         array('id'),

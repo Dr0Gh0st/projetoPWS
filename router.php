@@ -6,6 +6,9 @@
     require_once './controllers/ClienteController.php';
     require_once './controllers/FaturaController.php';
     require_once './controllers/LinhaFaturaController.php';
+    require_once './controllers/EmpresaController.php';
+    require_once './controllers/ProdutoController.php';
+    require_once './controllers/IvaController.php';
 
     if (!isset($_GET['c']) && !isset($_GET['a']))
     {
@@ -53,6 +56,30 @@
                 }
             break;
 
+            case 'empresa':
+                $empresascontroller = new EmpresaController();
+
+                switch ($action)
+                {
+                    case 'index':
+                        $empresascontroller -> index();
+                        break;
+
+                    case 'show':
+                        $empresascontroller -> show($_GET['id']);
+                        break;
+
+                    case 'update':
+                        $empresascontroller -> update($_GET['id']);
+                        break;
+
+                    case 'edit':
+                        $empresascontroller -> edit($_GET['id']);
+                        break;
+
+                }
+                break;
+
             case 'bo':
                 $bocontroller = new BOController();
 
@@ -60,6 +87,22 @@
                 {
                     case 'index':
                         $bocontroller -> index();
+                        break;
+
+                    case 'create':
+                        $bocontroller -> create();
+                        break;
+
+                    case 'store':
+                        $bocontroller -> store();
+                        break;
+
+                    case 'edit':
+                        $bocontroller -> edit($_GET['id']);
+                        break;
+
+                    case 'update':
+                        $bocontroller -> update($_GET['id']);
                         break;
                 }
             break;
@@ -86,6 +129,48 @@
                     case 'show':
                         $faturacontroller -> show($_GET['id']);
                         break;
+
+                    case 'create':
+                        $faturacontroller -> create();
+
                 }
+
+            case 'produto':
+                $produtocontroller = new ProdutoController();
+
+                switch ($action)
+                {
+                    case 'index':
+                        $produtocontroller -> index();
+                        break;
+
+                    case 'edit':
+                        $produtocontroller -> edit($_GET['id']);
+                        break;
+
+                    case 'update':
+                        $produtocontroller -> update($_GET['id']);
+                        break;
+                }
+                break;
+
+            case 'iva':
+                $ivacontroller = new IvaController();
+
+                switch ($action)
+                {
+                    case 'index':
+                        $ivacontroller -> index();
+                        break;
+
+                    case 'edit':
+                        $ivacontroller -> edit($_GET['id']);
+                        break;
+
+                    case 'update':
+                        $ivacontroller -> update($_GET['id']);
+                        break;
+                }
+                break;
         }
     }
